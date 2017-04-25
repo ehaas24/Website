@@ -1,0 +1,10 @@
+How do we want to read these in? Entries can have commas, single/double quotes, and special characters
+
+[Cherub, 'Above Water' by Gibbz]
+[Kiiara's 'Gold', 'Atlantis' by Bridgit Mendler]
+[Florence & The Machines, 'Phase Me Out' by Vérité]
+[Adele, LÉON's 'Think About You']
+[Trampled by Turtles, Rainbow Kitten Surprise (trust me)]
+[Mumford & Sons, The Revivalists]
+[Cage the Elephant, Little Hurricane]
+[Hippo Campus, 'Mirage' by slenderbodies]
