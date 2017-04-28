@@ -4,6 +4,15 @@
   text-align: center;
 }
 
+.port {
+
+}
+
+img {
+  width:30vw;
+  height:30vw;
+}
+
 .tile:hover {
   opacity:0.8;
 }
