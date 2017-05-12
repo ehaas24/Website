@@ -1,74 +1,69 @@
-.tile {
-  height: 300px;
-  padding: 5px;
-  text-align: center;
-}
 
 .port {
   margin-bottom: 100px;
 }
 
 
-
+/* This styles 0 - 480px viewports */
 img {
-  width:80vw;
-  height:80vw;
-}
-.portTitle {
-  position: relative;
-  top: -40vw;
-  font-size: 20px;
+  width:10em;
+  height:10em;
 }
 
-/*@media screen and (min-width: 480px) {
+
+@media screen and (min-width: 480px) {
   img {
-    width:30vw;
-    height:30vw;
+    width:15em;
+    height:15em;
   }
-}*/
+}
+
 @media(min-width:768px){
   img {
-    width:30vw;
-    height:30vw;
-  }
-  .portTitle {
-    position: relative;
-    top: -15vw;
-    font-size: 20px;
+      width: 11em;
+      height: 11em;
   }
 }
+
 @media(min-width:992px){
   img {
-    width:30vw;
-    height:30vw;
-  }
-  .portTitle {
-    position: relative;
-    top: -15vw;
-    font-size: 20px;
+    width:11em;
+    height:11em;
   }
 }
+
 @media(min-width:1200px){
   img {
-    width:400px;
-    height:400px;
-  }
-  .portTitle {
-    position: relative;
-    top: -200px;
-    font-size: 20px;
+    width:13em;
+    height:13em;
   }
 }
 
 body {
   padding-top: 100px;
-  background: #999999 !important;
+  background: white !important;
 }
 
+.margin-bottom-30 {
+  margin-bottom:30px;
+}
 
+.navbar-collapse.collapse {
+  display: block!important;
+}
 
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
 
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
 
-.tile:hover {
+.navbar-right {
+  float: right!important;
+}
+
+.port:hover {
   opacity:0.8;
 }
