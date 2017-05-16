@@ -1,10 +1,51 @@
 <!doctype html>
 <html>
-<head>
 
+<head>
+  <meta charset="utf-8">
+  <title>Pass My Ass</title>
+  <meta name="description" content="What grade do you need on your final to pass a class?">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" type="text/css" href="./css/passMyAss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("p").click(function() {
+                $(this).hide();
+            });
+        });
+    </script>
 
 </head>
+
 <body>
-  <h1>Welcome</h1>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-xs-12">
+            <p>I'll need</p>
+            <span id="nav-box" class="show-front">
+                <div class="front">
+                    <a href="#">82%</a>
+                </div>
+                <div class="bottom">
+                    <a href="#">24%</a></div>
+                <div class="back">
+                    <a href="#">93%</a></div>
+                <div class="top">
+                    <a href="#">100%</a></div>
+            </span>
+            <p>to get</p>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <p>second row</p>
+          </div>
+        </div>
+
+    </div>
+    <script src="./js/titleBarRotation.js"></script>
 </body>
+
 </html>
